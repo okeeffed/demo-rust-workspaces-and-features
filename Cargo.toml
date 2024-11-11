@@ -1,0 +1,10 @@
+[package]
+name = "workspaces"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["two"]
+
+[dependencies]
+two = { path = "./two", features = ["example"]}

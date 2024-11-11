@@ -1,0 +1,8 @@
+[package]
+name = "two"
+version = "0.1.0"
+authors = ["Your name here"]
+edition = "2021"
+
+[features]
+example = []
